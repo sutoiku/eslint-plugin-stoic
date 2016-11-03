@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-stoic",
   "version": "1.0.0",
-  "description": "Stoic Lint plugin",
+  "description": "ESLint plugin to rule them all",
   "keywords": [
     "eslint",
     "eslintplugin",
@@ -16,11 +16,8 @@
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
-    "eslint": "^3.3.1",
-    "mocha": "^3.0.2"
-  },
-  "engines": {
-    "node": ">=0.10.0"
+    "mocha": "^3.0.2",
+    "eslint": "^3.9.1"
   },
   "license": "ISC"
 }
