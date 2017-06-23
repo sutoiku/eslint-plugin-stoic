@@ -13,6 +13,7 @@
     "test": "mocha tests --recursive"
   },
   "dependencies": {
+    "eslint-config-bestpractices": "^1.2.0",
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
