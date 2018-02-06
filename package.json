@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-stoic",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "ESLint plugin to rule them all",
   "keywords": [
     "eslint",
