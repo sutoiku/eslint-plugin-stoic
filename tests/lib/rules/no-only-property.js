@@ -10,5 +10,13 @@ new RuleTester().run('no-only-property', rule, {
       code: '({ only: true })',
       errors: [{ message: `Property 'only' should be removed.`, type: 'Property' }],
     },
+    {
+      code: 'it.only()',
+      errors: [{ message: `Property 'only' should be removed.`, type: 'Identifier' }],
+    },
+    {
+      code: 'foo.it.only()',
+      errors: [{ message: `Property 'only' should be removed.`, type: 'Identifier' }],
+    },
   ],
 });
